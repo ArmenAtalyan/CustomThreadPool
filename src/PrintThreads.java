@@ -23,8 +23,6 @@ public class PrintThreads implements Runnable {
                     lock.notifyAll();
                 }
             }
-        } catch (Exception e) {
-            System.out.println("Exception : " + e);
-        }
+        } catch (Exception e) {}
     }
 }
